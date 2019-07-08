@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: lightskyblue;
+}
+
+main div {
+
+    background-color: lightgrey;
+    width: 100%;
+    height: 100%;
+    border: 15px black;
+    padding: 50px;
+    margin: 20px;
+
+}
+
+
+header h2 {
+    font-size: 170%;
+    color: black
+
+}
+
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+    text-align: left;
+}
+
+main img {
+    float: left;
+}
+
+main h1 {
+    font-size: 150%;
+    color: black
+}
+
+main h2 {
+    font-size: 130%;
+    color: black
+}
+
+main h3 {
+    font-size: 105%;
+}
+
+a:hover, a:focus {
+    font-style: italic;
+
+}
+
+/* the styles for the section */
+main {
+    clear: left;
+}
+
+/* the styles for the footer */
+.shadow {
+    text-shadow: 2px 3px 5px white;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
